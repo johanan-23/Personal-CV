@@ -1,0 +1,29 @@
+body {
+  background-color: #121212;
+}
+
+strong {
+  color: white;
+}
+
+a {
+  color: white;
+  font-style: normal;
+  text-decoration: none;
+}
+
+textarea {
+  background-color: #121212;
+  color: white;
+  border-radius: 10px;
+  border-color: purple;
+  border-width: 2.8px;
+}
+
+.mail-button {
+  background-color: goldenrod;
+  cursor: pointer;
+  width: 90px;
+  height: 40px;
+  border-radius: 30px;
+}

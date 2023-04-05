@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Bangers&family=Black+Ops+One&family=Boogaloo&family=Bungee+Shade&family=Germania+One&family=Holtwood+One+SC&family=IBM+Plex+Sans:wght@300&family=Jockey+One&family=Kelly+Slab&family=Londrina+Solid:wght@300&family=Ms+Madi&family=Notable&family=Reggae+One&family=Roboto:wght@300&family=Rubik+Iso&family=Rubik+Mono+One&family=Rye&family=Yatra+One&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
+.phone-pic {
+  width: 30px;
+  height: 30px;
+  transition: 0.4s;
+
+}
+
+.phone-pic:hover {
+  width: 40px;
+  height: 40px;
+}
+
+p {
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.name {
+  font-family: 'Notable', sans-serif;
+  color: #8B9A46;
+  background-clip: text;
+  font-size: 60px;
+  font-weight: 900;
+  transition: 0.5s;
+}
+
+
+.name:hover {
+  font-family: 'Notable', sans-serif;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYVvu6X9LRYmbOH6unYh3Wu0_8o_nYUd8jGQ&usqp=CAU);
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text;
+  font-size: 62px;
+  font-weight: 900;
+
+}
+
+body {
+  background-color: #121212;
+}
+
+hr {
+  border-style: solid;
+  color: #EEEEEE;
+
+}
+
+h2 {
+  font-family: 'Allerta Stencil', sans-serif;
+  color: #541212;
+  font-weight: bolder;
+}
+
+.contact-link {
+  color: #EEEEEE;
+  text-decoration: none;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.dp-picture {
+  border-radius: 50%;
+  height: 200px;
+  /* Modify this according to your need */
+  overflow: hidden;
+  /* Removing this will break the effects */
+  transition: transform .5s, filter .5s ease-in-out;
+  filter: grayscale(100%);
+}
+
+.dp-picture:hover {
+  filter: grayscale(0);
+  transform: scale(1.08);
+}
+
+.year-col {
+  text-align: center;
+  color: #EEEEEE;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.course-col {
+  text-align: center;
+  color: #EEEEEE;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+ol {
+  color: #EEEEEE;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+em {
+  font-weight: bolder;
+  font-style: normal;
+  font-family: Yatra One;
+  font-size: 28px;
+}
+
+.name-and-data {
+  text-align: center;
+}
+
+.stars {
+  color: goldenrod;
+}
+
+.skill-b4-stars {
+  color: white;
+}
